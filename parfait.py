@@ -29,7 +29,6 @@ def verifier(M, N):
     for i in range(len(ch)):
         nv_ch = nv_ch + T[i]
     ch = nv_ch
-    print(verif_occur(ch))
     return verif_occur(ch)
 
 
